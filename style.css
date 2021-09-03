@@ -1,12 +1,12 @@
 body{
        font-family: comic sans ms;
        background-color:black;
-       background-image:url("8/two-tone-ink-cloud\ \(1\).jpg ");
+       background-image:url("two-tone-ink-cloud\ \(1\).jpg ");
        background-size:cover;
        background-attachment: fixed;
-       /* background-image: url("les images/771b6e2e-4710-4de6-8a77-2823be390903.jpg "); */
-}
 
+}
+/*  css du formulaire (cadre)*/
 #in form{
 
     border-radius: 12px;
@@ -28,18 +28,20 @@ body{
     background-image:url("8/two-tone-ink-cloud\ \(1\).jpg ");
 
 }
+/* css de l input text */
 #in input[type="text"]{
 height: 38px;
 width: 50%;
 
 
 }
-
+/* css de l input password */
 #in input[type="password"]{
 height: 38px;
 width: 50%;
 
 }
+/* css de l input submit et reset */
 #in input[type="submit"],#in input[type="reset"]{
     height: 55px;
     width:20%;
